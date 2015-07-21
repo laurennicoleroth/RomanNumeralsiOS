@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var romanNumeral: UILabel!
+    @IBOutlet weak var numberToConvert: UITextField!
+    @IBOutlet weak var convertedNumber: UILabel!
+    
+    @IBAction func buttonClick(sender: AnyObject) {
+        
+        var arabicNumber:Int? = numberToConvert.text.toInt()
+        convertedNumber.text = RomanNumeralsCalculator().arabicToRomanNumeral(arabicNumber!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

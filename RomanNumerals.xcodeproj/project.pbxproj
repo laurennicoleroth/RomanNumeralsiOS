@@ -13,6 +13,7 @@
 		96DD67221B5DE08B00ADCEB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DD67211B5DE08B00ADCEB3 /* Images.xcassets */; };
 		96DD67251B5DE08B00ADCEB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DD67231B5DE08B00ADCEB3 /* LaunchScreen.xib */; };
 		96DD67311B5DE08B00ADCEB3 /* RomanNumeralsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD67301B5DE08B00ADCEB3 /* RomanNumeralsTests.swift */; };
+		96DD673B1B5DE67300ADCEB3 /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD673A1B5DE67300ADCEB3 /* RomanNumeral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		96DD672A1B5DE08B00ADCEB3 /* RomanNumeralsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD672F1B5DE08B00ADCEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96DD67301B5DE08B00ADCEB3 /* RomanNumeralsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsTests.swift; sourceTree = "<group>"; };
+		96DD673A1B5DE67300ADCEB3 /* RomanNumeral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				96DD671A1B5DE08B00ADCEB3 /* AppDelegate.swift */,
 				96DD671C1B5DE08B00ADCEB3 /* ViewController.swift */,
 				96DD671E1B5DE08B00ADCEB3 /* Main.storyboard */,
+				96DD673A1B5DE67300ADCEB3 /* RomanNumeral.swift */,
 				96DD67211B5DE08B00ADCEB3 /* Images.xcassets */,
 				96DD67231B5DE08B00ADCEB3 /* LaunchScreen.xib */,
 				96DD67181B5DE08B00ADCEB3 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96DD671D1B5DE08B00ADCEB3 /* ViewController.swift in Sources */,
+				96DD673B1B5DE67300ADCEB3 /* RomanNumeral.swift in Sources */,
 				96DD671B1B5DE08B00ADCEB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
